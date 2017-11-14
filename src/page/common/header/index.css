@@ -1,0 +1,34 @@
+/*
+* @Author: Ponnenult
+* @Date:   2017-11-13 23:47:53
+* @Last Modified by:   Ponnenult
+* @Last Modified time: 2017-11-14 00:43:26
+*/
+.header .logo{
+    position: absolute;
+    left: 60px;
+    top: 34px;
+    display: block;
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+}
+
+.header .search-con{
+    padding: 40px 0 30px 250px;
+}
+
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid #c60023;
+}
+.header .search-con .search-btn{
+    position: absolute;
+    height: 44px;
+    width: 80px;
+}

@@ -1,0 +1,17 @@
+/*
+* @Author: Ponnenult
+* @Date:   2017-11-13 22:54:22
+* @Last Modified by:   Ponnenult
+* @Last Modified time: 2017-11-13 23:02:45
+*/
+.nav-simple{
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px,solid #ddd;
+    background: #fff;
+}
+.nav-simple .logo{
+    font-size:26px;
+    font-weight: bold;
+    color: #c60023;
+}
