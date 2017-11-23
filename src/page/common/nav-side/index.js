@@ -2,7 +2,7 @@
 * @Author: Ponnenult
 * @Date:   2017-11-14 01:08:57
 * @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-14 01:59:32
+* @Last Modified time: 2017-11-15 10:42:30
 */
 require('./index.css');
 var _mm           =require('util/mm.js');
@@ -21,7 +21,7 @@ var navSide ={
     init : function(option){
         //合并选项
         $.extend(this.option, option);
-        this.renderNav();
+            this.renderNav();
 },
 renderNav : function(){
         //计算active数据

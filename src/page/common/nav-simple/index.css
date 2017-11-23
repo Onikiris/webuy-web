@@ -2,7 +2,7 @@
 * @Author: Ponnenult
 * @Date:   2017-11-13 22:54:22
 * @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-13 23:02:45
+* @Last Modified time: 2017-11-15 14:35:33
 */
 .nav-simple{
     height: 60px;
@@ -14,4 +14,5 @@
     font-size:26px;
     font-weight: bold;
     color: #c60023;
+    text-decoration: none;
 }

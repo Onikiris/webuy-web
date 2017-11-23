@@ -2,7 +2,7 @@
 * @Author: Ponnenult
 * @Date:   2017-11-13 17:29:20
 * @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-13 21:55:42
+* @Last Modified time: 2017-11-15 10:23:48
 */
     var Hogan = require('hogan.js');
     var conf = {
@@ -79,7 +79,7 @@
     },
         //统一登录处理
         doLogin : function(){
-            window.location.href = './login.html?redirect ='+encodeURIComponent(window.location.href);
+            window.location.href = './user-login.html?redirect ='+encodeURIComponent(window.location.href);
         },
         //跳转主页
          goHome : function(){
