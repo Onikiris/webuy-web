@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ponnenult/mmall.git"
+    "url": "git+https://github.com:Visuper/WeBuy.git"
   },
-  "author": "Ponnenult",
+  "author": "Visuper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ponnenult/mmall/issues"
+    "url": "https://github.com:Visuper/WeBuy/issues"
   },
-  "homepage": "https://github.com/Ponnenult/mmall#readme",
+  "homepage": "https://github.com:Visuper/WeBuy#readme",
   "devDependencies": {
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^1.0.1",
