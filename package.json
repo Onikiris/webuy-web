@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git@github.com:Visuper/WeBuy.git"
   },
-  "author": "Rosen",
+  "author": "visuper",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.28.1",
