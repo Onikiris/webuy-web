@@ -1,9 +1,10 @@
 /*
-* @Author: Ponnenult
-* @Date:   2017-11-13 23:47:53
-* @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-15 14:34:43
+* @Author: visuper
+* @Date:   2017-09-18 19:30:20
+* @Last Modified by:   visuper
+* @Last Modified time: 2017-09-23 20:03:49
 */
+/* 通用头部导航 */
 .header .logo{
     position: absolute;
     left: 60px;
@@ -18,30 +19,28 @@
 .header .search-con{
     padding: 40px 0 30px 250px;
 }
-
 .header .search-con .search-input{
     width: 550px;
     height: 40px;
     line-height: 40px;
     padding-left: 10px;
     font-size: 15px;
-    outline: none;
     border: 2px solid #c60023;
+    outline: none;
 }
 .header .search-con .search-btn{
     position: absolute;
     height: 44px;
     width: 80px;
 }
-/*
-面包屑导航
- */
+
+/* 面包屑导航 */
 .crumb{
+    margin-bottom: 15px;
     height: 50px;
     line-height: 50px;
     background: #eee;
     color: #888;
     font-size: 14px;
-    margin-bottom: 15px;
     border-top: 2px solid #c60023;
 }

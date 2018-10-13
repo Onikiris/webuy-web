@@ -1,15 +1,15 @@
 /*
-* @Author: Ponnenult
-* @Date:   2017-11-13 23:16:56
-* @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-13 23:22:00
+* @Author: visuper
+* @Date:   2017-09-17 14:16:54
+* @Last Modified by:   visuper
+* @Last Modified time: 2017-09-17 16:31:15
 */
 .nav{
     background: #eee;
     height: 30px;
-    line-height: 30px;
+    line-height: 30px;   
 }
-/*用户部分*/
+/* 用户部分 */
 .nav .user{
     float: left;
 }
@@ -19,11 +19,10 @@
 .nav .user .link{
     margin-right: 5px;
 }
-/*导航链接部分*/
+/* 导航链接部分 */
 .nav .nav-list{
     float: right;
 }
-
 .nav .nav-list .nav-item{
     display: inline-block;
     margin-left: 5px;

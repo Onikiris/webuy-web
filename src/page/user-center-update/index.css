@@ -1,8 +1,8 @@
 /*
-* @Author: Ponnenult
-* @Date:   2017-11-15 14:23:24
-* @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-15 15:32:39
+* @Author: visuper
+* @Date:   2017-09-23 19:52:21
+* @Last Modified by:   visuper
+* @Last Modified time: 2017-09-23 23:06:26
 */
 .form-line{
     margin-bottom: 10px;
@@ -16,7 +16,8 @@
     text-align: center;
 }
 .form-line .input{
-   height: 25px;
-   line-height: 25px;
-   width: 200px;
+    height: 25px;
+    line-height: 25px;
+    width: 200px;
+    font-size: 14px;
 }

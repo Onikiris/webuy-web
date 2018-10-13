@@ -1,14 +1,18 @@
 /*
-* @Author: Ponnenult
-* @Date:   2017-11-13 17:29:20
-* @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-15 10:23:48
+* @Author: visuper
+* @Date:   2017-09-15 15:26:38
+* @Last Modified by:   visuper
+* @Last Modified time: 2017-09-21 14:58:37
 */
-    var Hogan = require('hogan.js');
-    var conf = {
+
+'use strict';
+//根据官方文档，hogan新版本引入方式为 var Hogan = require("hogan.js");
+
+var Hogan = require('hogan.js');
+var conf = {
     serverHost : ''
 };
-    var _mm = {
+var _mm = {
     // 网络请求
     request : function(param){
         var _this = this;
@@ -36,32 +40,31 @@
             }
         });
     },
-     // 获取服务器地址
+    // 获取服务器地址
     getServerUrl : function(path){
         return conf.serverHost + path;
     },
     // 获取url参数
     getUrlParam : function(name){
-        //正则
         var reg     = new RegExp('(^|&)' + name + '=([^&]*)(&|$)');
         var result  = window.location.search.substr(1).match(reg);
         return result ? decodeURIComponent(result[2]) : null;
     },
-     // 渲染html模板
+    // 渲染html模板
     renderHtml : function(htmlTemplate, data){
         var template    = Hogan.compile(htmlTemplate),
             result      = template.render(data);
         return result;
     },
-     // 成功提示
+    // 成功提示
     successTips : function(msg){
         alert(msg || '操作成功！');
     },
     // 错误提示
     errorTips : function(msg){
-        alert(msg || 'Opps,操作失误咯~');
+        alert(msg || '哪里不对了~');
     },
-     // 字段的验证，支持非空、手机、邮箱的判断
+    // 字段的验证，支持非空、手机、邮箱的判断
     validate : function(value, type){
         var value = $.trim(value);
         // 非空验证
@@ -77,13 +80,13 @@
             return /^(\w)+(\.\w+)*@(\w)+((\.\w{2,3}){1,3})$/.test(value);
         }
     },
-        //统一登录处理
-        doLogin : function(){
-            window.location.href = './user-login.html?redirect ='+encodeURIComponent(window.location.href);
-        },
-        //跳转主页
-         goHome : function(){
+    // 统一登录处理
+    doLogin : function(){
+        window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
+    },
+    goHome : function(){
         window.location.href = './index.html';
     }
-    };
-    module.exports = _mm;
+};
+
+module.exports = _mm;

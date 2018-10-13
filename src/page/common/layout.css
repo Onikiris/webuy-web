@@ -1,17 +1,17 @@
 /*
-* @Author: Ponnenult
-* @Date:   2017-11-13 21:56:42
-* @Last Modified by:   Ponnenult
-* @Last Modified time: 2017-11-23 10:00:44
+* @Author: visuper
+* @Date:   2017-09-16 18:03:01
+* @Last Modified by:   visuper
+* @Last Modified time: 2017-09-23 21:50:48
 */
-/*css reset*/
+/* css reset */
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background: #f6f6f6;
-    font: 12px/1.5 tahoma,arial,Microsoft YaHei,sans-serif;
+    font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;
 }
 li{
     list-style: none;
@@ -27,17 +27,15 @@ input[type='checkbox']{
     cursor: pointer;
 }
 
-/*定宽布局*/
+/* 定宽布局 */
 .w{
     width: 1080px;
     margin: 0 auto;
     position: relative;
-    //可以清除浮动
     overflow: hidden;
 }
-/*
-pannel
- */
+
+/* panel */
 .panel{
     padding: 10px;
     margin-bottom: 10px;
@@ -54,18 +52,13 @@ pannel
     padding: 10px;
     overflow: hidden;
 }
-/*large .w{
-    width: 1600px;
-}
-}*/
 
-
-/*全局通用样式*/
-/*隐藏样式*/
+/* 全局通用样式 */
+/* 隐藏类 */
 .hide{
     display: none;
 }
-/*超链接样式*/
+/* 超链样式 */
 .link{
     color: #999;
     cursor: pointer;
@@ -78,7 +71,7 @@ pannel
     color: #999;
     text-decoration: none;
 }
-/*btn*/
+/* btn */
 .btn{
     display: inline-block;
     padding: 0 20px;
@@ -91,16 +84,16 @@ pannel
     font-weight: bold;
     color: #fff;
     outline: none;
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .btn-mini{
     height: 25px;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 12px;
-    padding: 2 10px;
+    padding: 0 10px;
 }
-/*loading*/
+/* loading */
 .loading{
     margin: 10px auto;
     display: block;
@@ -108,6 +101,6 @@ pannel
     height: 65px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background: url(../../image/loading.gif) no-repeat;
+    background: url(../../image/icon/loading.gif) no-repeat;
     opacity: .6;
 }
