@@ -2,7 +2,6 @@
   "name": "webuy-Alpha",
   "version": "1.0.0",
   "description": "WeBuy前端代码",
-
   "main": "index.js",
   "scripts": {
     "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
